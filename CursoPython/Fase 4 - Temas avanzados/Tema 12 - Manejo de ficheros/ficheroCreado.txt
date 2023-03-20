@@ -1,0 +1,2 @@
+Abri en modo lectura y escritura r+, el puntero se coloco al inicioe notas
+Esta linea la modifique en memoriate y arbiendo en modo append
