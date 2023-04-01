@@ -1,0 +1,1 @@
+print("Soy el __init__ del sub paquete despedidas")
