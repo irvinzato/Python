@@ -28,7 +28,7 @@ setup(
 
 
 #También puedo manejar los test y la manera corresta es en la raíz crear la carpeta "tests" con el fichero
-#Deberia haber un fichero "test" para cada paquete que estamos utilizando
+#Deberia haber un fichero "test" para cada paquete que estamos utilizando. Comando para correr las pruebas "python setup.py test"
 
 
 """ Lo anterior fue distribución LOCAL
