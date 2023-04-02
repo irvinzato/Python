@@ -1,8 +1,13 @@
+import numpy as np #Modulo externo que necesatemos al hacer el paquete del setup(hay que indicarle)
+
 def saludar():
     print("Hola, siempre firme Irving ! desde saludos.saludar()")
 
 def version():
     print("Estas en el método version de saludos.tipoHola")
+
+def generar_array(numeros): #¿Que pasará si esta clase utiliza numpy al momento de hacer el setup?
+    return np.arange(numeros)
 
 class Saludo:
     def __init__(self):
@@ -13,6 +18,6 @@ class Saludo:
 #O cualquier código que tengamos en la parte inferior
 print(__name__)
 if __name__ == '__main__':
-    saludar()
+    print(generar_array(5))
 
 print("NO ESTA DENTRO DEL IF")
